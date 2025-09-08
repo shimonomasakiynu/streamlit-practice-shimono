@@ -8,4 +8,5 @@ st.write(f"入力された数値: {number}")
 #ボタンを追加
 if st.button("クリックしてね"):
     st.write("ボタンがクリックされました！")
-    
+    #2乗を表示
+    st.write(f"{number}の2乗は{number**2}です")
