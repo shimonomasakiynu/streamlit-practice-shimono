@@ -1,5 +1,6 @@
 import streamlit as st
-st.title("Hello, Streamlit!")
+st.title("High and Low Game にようこそ")
+
 st.write("これは最小構成の Streamlitアプリです。")
 st.write("Shimono0908")
 #数値を入力するウィジェット
