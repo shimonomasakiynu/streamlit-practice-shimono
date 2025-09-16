@@ -9,6 +9,12 @@ if "first_num" not in st.session_state:
 
 st.write(f"First Number: {st.session_state.first_num}")
 
+# リセットボタンを追加
+if st.button("Reset"):
+    st.session_state.first_num = random.randint(1, 13)
+    st.experimental_rerun()  # ページをリロードして状態を更新
+
+
 # ② High, Lowのボタンを表示
 choice = st.radio("Choose High or Low:", ("High", "Low"))
 
@@ -22,4 +28,3 @@ if st.button("Submit"):
         st.success("You Win!")
     else:
         st.error("You Lose!")
-        
