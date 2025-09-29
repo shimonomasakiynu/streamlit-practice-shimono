@@ -1,0 +1,11 @@
+site_name: streamlit Practice Shimono
+site_url: https://shimonomasakiynu.github.io/streamlit-practice-shimono/
+theme:
+  name: material
+nav:
+  - Home: index.md
+repo_url: https://github.com/shimonomasakiynu/streamlit-practice-shimono
+extra:
+  version:
+    provider: mike
+
