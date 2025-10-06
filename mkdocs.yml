@@ -4,9 +4,6 @@ theme:
   name: material
 nav:
   - Home: index.md
-  - About: about.md
-  - how to use: howtouse/tukaikata.md
-  - High & Low: games/highlow.md
 repo_url: https://github.com/shimonomasakiynu/streamlit-practice-shimono
 extra:
   version:
