@@ -4,8 +4,8 @@ theme:
   name: material
 nav:
   - Home: index.md
-  - About: about_blackjack.md
-  - About: about_highlow.md
+  - ブラックジャック: about_blackjack.md
+  - ハイ＆ロー: about_highlow.md
 
 repo_url: https://github.com/shimonomasakiynu/streamlit-practice-shimono
 extra:

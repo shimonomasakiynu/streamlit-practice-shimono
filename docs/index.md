@@ -7,9 +7,7 @@
 - [ブラックジャック][[link-blackjack](https://shimonomasakiynu-streamlit-practice-shim-cards-games-app-m5is2y.streamlit.app/Blackjack)] — 21 を目指すシンプル＆スリリングなテーブルゲーム。
 
 ## 遊び方ガイド
-1. ターミナルで `streamlit run cards_games_app.py` を実行します。
-2. ブラウザが開いたら、左メニューからプレイしたいゲームをクリックします。
-3. 各ページの指示に従ってベットやカード操作を行ってください。
+- 左のメニューからゲームを選んでください
 
 ## コンテンツ
 - [ゲーム紹介: ハイ&ロー]
