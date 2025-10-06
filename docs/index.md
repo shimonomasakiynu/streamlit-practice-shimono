@@ -5,11 +5,11 @@
 ## 今週のおすすめタイトル
 - [ハイ&ロー](https://shimonomasakiynu-streamlit-practice-shim-cards-games-app-m5is2y.streamlit.app/High_and_Low) — 配られたカードより高いか低いかを予想してチップを賭ける王道ゲーム。
 
-  ![ハイ&ローのゲーム画面](assets/High_and_Low_pic.png)
+  <img src="assets/High_and_Low_pic.png" alt="ハイ&ローのゲーム画面" width="120" />
 
 - [ブラックジャック](https://shimonomasakiynu-streamlit-practice-shim-cards-games-app-m5is2y.streamlit.app/Blackjack) — 21 を目指すシンプル＆スリリングなテーブルゲーム。
 
-  ![ブラックジャックのゲーム画面](assets/Black_Jack_png.png)
+  <img src="assets/Black_Jack_png.png" alt="ブラックジャックのゲーム画面" width="120" />
 
 
 ## 遊び方ガイド
