@@ -1,13 +1,16 @@
-import streamlit as st
-st.title("High and Low Game にようこそ")
+﻿import streamlit as st
 
-st.write("これは最小構成の Streamlitアプリです。")
-st.write("Shimono0908")
-#数値を入力するウィジェット
-number = st.number_input("数値を入力してください", min_value=0, max_value=100, value=50, step=1)
-st.write(f"入力された数値: {number}")
-#ボタンを追加
-if st.button("クリックしてね"):
-    st.write("ボタンがクリックされました！")
-    #2乗を表示
-    st.write(f"{number}の2乗は{number**2}です")
+st.set_page_config(page_title="カードゲームアプリ", page_icon="🃏", layout="wide")
+st.title("カードゲームアプリへようこそ")
+st.write("左側のメニューから遊びたいゲームを選んでください。")
+st.markdown(
+    "\n".join(
+        [
+            "利用できるゲーム:",
+            "- ハイ&ロー",
+            "- ブラックジャック",
+        ]
+    )
+)
+if st.button("メインメニューに戻る"):
+    st.markdown("[メインメニューに戻る](https://shimonomasakiynu.github.io/streamlit-practice-shimono/1.0.1/)")

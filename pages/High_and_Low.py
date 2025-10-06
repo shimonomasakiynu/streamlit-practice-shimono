@@ -2,7 +2,6 @@
 
 from model.High_and_Low import load_sample_game
 
-
 st.title("High and Low")
 
 
