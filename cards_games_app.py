@@ -1,6 +1,6 @@
 ﻿import streamlit as st
 
-st.set_page_config(page_title="カードゲームアプリ", page_icon="🃏", layout="wide")
+st.set_page_config(page_title="メインメニューリンク", page_icon="🃏", layout="wide")
 st.title("カードゲームアプリへようこそ")
 st.write("左側のメニューから遊びたいゲームを選んでください。")
 st.markdown(
